@@ -33,6 +33,43 @@ code {
    padding: 3px 5px;
 }
 
+.hero {
+    background-blend-mode: darken;
+    background-color: rgba(51, 63, 103, 0.4);
+    background-image: url("/GodotSteam-SteamMultiplayerPeer-Example-3D.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    padding: 124px 0 60px;
+    text-align: center;
+}
+
+.hero h1 {
+    text-shadow: 0 0 28px rgba(0, 0, 0, .5);
+}
+
+.button-primary-wrapper {
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    max-width: 360px;
+    margin: 50px auto 0;
+    text-decoration: none ;
+}
+
+.button-primary {
+    color: #000;
+    flex-grow: 1;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+.button-primary-hint {
+    background-color: #4d9fdc;
+    border-radius: 0 12px 12px 0;
+    color: #fff;
+    padding: 16px 32px;
+}
+
 .card {
     background-color: #333639;
     margin-top: 32px;
