@@ -1,0 +1,44 @@
+[
+    {
+        "name": "3D Player Controller Addon",
+        "description": "A drop-in 3D player controller.",
+        "url": "https://github.com/kirbycope/godot-3d-player-controller-v2",
+        "image": "https://timothycope.com/img/projects/godot-3d-player-controller-v2.png"
+    },
+    {
+        "name": "AmbientCG",
+        "description": "Free textures and sky-boxes.",
+        "url": "https://ambientcg.com/",
+        "image": "ambientcg.jpg"
+    },
+    {
+        "name": "Fab",
+        "description": "Limited-time free assets.",
+        "url": "https://www.fab.com/limited-time-free",
+        "image": "fab.jpeg"
+    },
+    {
+        "name": "Game Icons",
+        "description": "Free icons for your games.",
+        "url": "https://game-icons.net/",
+        "image": "game-icons.png"
+    },
+    {
+        "name": "Kenney",
+        "description": "Free 2D and 3D assets for games.",
+        "url": "https://kenney.nl/assets",
+        "image": "kenney.png"
+    },
+    {
+        "name": "Mixamo",
+        "description": "Free 3D character animations.",
+        "url": "https://www.mixamo.com/",
+        "image": "mixamo.jpg"
+    },
+    {
+        "name": "Quaternius",
+        "description": "Free 3D assets for games.",
+        "url": "https://quaternius.com/",
+        "image": "quaternius.jpg"
+    }
+]

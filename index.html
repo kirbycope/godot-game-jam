@@ -19,91 +19,96 @@
             <div class="button button-secondary">Join the Discord</div>
         </a>
     </div>
-    <h2>How It Works</h2>
-    <div class="features-wrapper">
-        <div class="feature">
-            <img src="/palette.svg" alt="Painter's palette icon">
-            <h4>Theme</h4>
-            <p>The <code>theme</code> is "whatever you want."</p>
+    <div class="container">
+        <h2>How It Works</h2>
+        <div class="features-wrapper">
+            <div class="feature">
+                <img src="/palette.svg" alt="Painter's palette icon">
+                <h4>Theme</h4>
+                <p>The <code>theme</code> is "whatever you want."</p>
+            </div>
+            <div class="feature">
+                <img src="/alarm-clock.svg" alt="Alarm clock icon">
+                <h4>Deadline</h4>
+                <p>The <code>deadline</code> is "whenever it is done."</p>
+            </div>
+            <div class="feature">
+                <img src="/trophy-cup.svg" alt="Trophy cup icon">
+                <h4>Prize</h4>
+                <p>The <code>prize</code> is whatever you make from <a href="https://itch.io/">Itch.io</a> and/or <a href="https://store.steampowered.com/">Steam</a>!</p>
+            </div>
         </div>
-        <div class="feature">
-            <img src="/alarm-clock.svg" alt="Alarm clock icon">
-            <h4>Deadline</h4>
-            <p>The <code>deadline</code> is "whenever it is done."</p>
+        <div class="card">
+            <h2>Getting Started</h2>
+            <ol>
+                <li>Download the <a href="https://godotengine.org/download" target="_blank">Godot Engine</a> and extract (unzip/unarchive) to:
+                    <ul>
+                        <li>[macOS] <code>/Applications/Godot</code></li>
+                        <li>[Windows] <code>C:/Godot</code></li>
+                    </ul>
+                </li>
+                <li>Download <a href="https://desktop.github.com/download/" target="_blank">GitHub Desktop</a> and sign in with your GitHub account
+                    <ul>
+                        <li>Go to <a href="https://github.com/signup" target="_blank">GitHub Signup</a> if you don't have an account</li>
+                    </ul>
+                </li>
+                <li>Create a <a href="https://github.com/new">new repository</a> on GitHub
+                    <ul>
+                        <li>Name: <code>new-game-project</code></li>
+                        <li>Description: <code>A new game project for the Godot Game Jam.</code></li>
+                        <li>Visibility: Public</li>
+                        <li>Add a README file: On</li>
+                        <li>Add .gitignore: <code>Godot</code></li>
+                        <li>Add license: <code>MIT License</code></li>
+                    </ul>
+                </li>
+                <li>On your project page, select "Code" > "Open with GitHub Desktop"
+                    <ul>
+                        <li>Choose the local path
+                            <ul>
+                                <li>[macOS] <code>/Applications/Godot/new-game-project</code></li>
+                                <li>[Windows] <code>C:/GitHub/new-game-project</code></li>
+                            </ul>
+                        </li>
+                        <li>Select "Clone"</li>
+                    </ul>
+                </li>
+                <li>Open Godot and select "+ Create"</li>
+                    <ul>
+                        <li>Project Name: <code>New Game Project</code></li>
+                        <li>Project Path:
+                            <ul>
+                                <li>[macOS] <code>/Applications/Godot/new-game-project</code></li>
+                                <li>[Windows] <code>C:/GitHub/new-game-project</code></li>
+                            </ul>
+                        </li>
+                        <li>Renderer: Forward+
+                            <ul><li>You can export to "Mobile" and" Compatibility" (Web) Renderers but some scenes may need to be adjusted</li></ul>
+                        </li>
+                        <li> Select "Create"
+                            <ul><li>The folder is not empty because it has some GitHub related files, select "OK" to continue</li></ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Open GitHub Desktop and commit the changes
+                    <ul>
+                        <li>Summary: <code>Initial commit</code></li>
+                        <li>Description: <code>Initial commit for the new game project.</code></li>
+                        <li>Select "Commit to main"</li>
+                    </ul>
+                </li>
+                <li>Select "Push origin"
+                    <ul><li>Your project is now backed up on GitHub!</li></ul>
+                </li>
+            </ol>
         </div>
-        <div class="feature">
-            <img src="/trophy-cup.svg" alt="Trophy cup icon">
-            <h4>Prize</h4>
-            <p>The <code>prize</code> is whatever you make from <a href="https://itch.io/">Itch.io</a> and/or <a href="https://store.steampowered.com/">Steam</a>!</p>
-        </div>
+        <h3>Resources</h3>
+        <div class="resources-wrapper"></div>
     </div>
-    <div class="card">
-        <h2>Get Started Now!</h2>
-        <ol>
-            <li>Download the <a href="https://godotengine.org/download" target="_blank">Godot Engine</a> and extract (unzip/unarchive) to:</li>
-            <ul>
-                <li>[Windows] <code>C:/Godot</code></li>
-                <li>[macOS] <code>/Applications/Godot</code></li>
-            </ul>
-            <li>Download <a href="https://desktop.github.com/download/" target="_blank">GitHub Desktop</a> and sign in with your GitHub account.</li>
-            <ul>
-                <li>Go to <a href="https://github.com/signup" target="_blank">GitHub Signup</a> if you don't have an account.</li>
-            </ul>
-            <li>Create a new project</li>
-        </ol>
-    </div>
-    <h3>Resources</h3>
-    <a href="https://github.com/kirbycope/godot-3d-player-controller-v2" alt="3D Player Controller Addon" class="resource" target="_blank">
-        <img src="https://timothycope.com/img/projects/godot-3d-player-controller-v2.png" alt="Resource">
-        <div>
-            <h4>Godot 3D Player Controller (v.2)</h4>
-            <p>A drop-in 3D player controller with a Finite State Machine (FSM) and in-game menus for quick prototyping.</p>
-        </div>
-    </a>
-    <a href="https://www.mixamo.com/#/" class="resource" target="_blank">
-        <img src="mixamo-hero.jpg" alt="Resource">
-        <div>
-            <h4>Mixamo</h4>
-            <p>Animate 3D characters for games, film, and more.</p>
-        </div>
-    </a>
-    <a href="https://kenney.nl/" class="resource" target="_blank">
-        <img src="kenney.png" alt="Resource">
-        <div>
-            <h4>Kenney</h4>
-            <p>Thousands of completely free game assets for you to use.</p>
-        </div>
-    </a>
-    <a href="https://quaternius.com/" class="resource" target="_blank">
-        <img src="quaternius.jpg" alt="Resource">
-        <div>
-            <h4>Quaternius</h4>
-            <p>Free game assets for you to use.</p>
-        </div>
-    </a>
-    <a href="https://ambientcg.com/" class="resource" target="_blank">
-        <img src="ambientcg.jpg" alt="Resource">
-        <div>
-            <h4>AmbientCG</h4>
-            <p>Free 3D Assets for Everyone and Everything.</p>
-        </div>
-    </a>
-    <a href="https://www.fab.com/limited-time-free" class="resource" target="_blank">
-        <img src="fab.jpeg" alt="Resource">
-        <div>
-            <h4>Fab</h4>
-            <p>Limited-time free assets.</p>
-        </div>
-    </a>
-    <a href="https://game-icons.net/" class="resource" target="_blank">
-        <img src="game-icons.png" alt="Resource">
-        <div>
-            <h4>Game Icons</h4>
-            <p>Already 4,000+ free icons for your games.</p>
-        </div>
-    </a>
 </body>
 <footer>
     <p>Made by <a href="https://timothycope.com" target="_blank">Timothy Cope</a>.</p>
+    <!-- Load scripts last -->
+    <script type="text/javascript" src="resources.js"></script>
 </footer>
 </html>

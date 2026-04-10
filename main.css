@@ -76,7 +76,7 @@ code, .resource > div > p > code {
 }
 
 .button-secondary-wrapper {
-    background-color: rgba(129,129,129,.666);
+    background-color: rgba(129, 129, 129, .666);
     border-radius: 1rem;
     display: flex;
     max-width: 360px;
@@ -100,12 +100,19 @@ code, .resource > div > p > code {
     padding: 1rem;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
 .features-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 240px));
     grid-auto-rows: min-content;
     gap: 20px;
     grid-auto-flow: row;
+    justify-content: center;
     padding: 1rem;
 }
 
